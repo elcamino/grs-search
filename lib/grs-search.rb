@@ -20,7 +20,6 @@ class GRSSearch
       RestClient.proxy = self.proxy_url
     end
 
-    puts url
     response = nil
 
     begin
