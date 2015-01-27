@@ -1,5 +1,6 @@
 require 'simplecov'
 
+
 module SimpleCov::Configuration
   def clean_filters
     @filters = []
@@ -25,5 +26,4 @@ require 'grs-search'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-
 end

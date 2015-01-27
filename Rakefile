@@ -16,10 +16,10 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "grs-search"
   gem.homepage = "http://github.com/elcamino/grs-search"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "tb@tb.unnet"
+  gem.license = "BSD"
+  gem.summary = %Q{Look up GRS data via the RIPE API}
+  gem.description = %Q{This Ruby library looks up GRS data via the Ripe API (http://rest.db.ripe.net)}
+  gem.email = "tob@spyz.org"
   gem.authors = ["Tobias Begalke"]
   # dependencies defined in Gemfile
 end
