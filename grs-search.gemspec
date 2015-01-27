@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "grs-search.gemspec",
     "lib/grs-search.rb",
     "lib/grs-search/response.rb",
     "spec/grs-search_spec.rb",
